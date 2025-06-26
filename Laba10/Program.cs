@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Laba10;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
@@ -14,9 +15,12 @@ namespace Lab10
             string inputFileName = "dust.csv";
             string outputFileName = "generated_dust.csv";
 
+            TestClass testClass = new();
+
             Dust[] generatedDustArray = null; // Инициализация переменной
             Stopwatch stopwatch = null; // Инициализация переменной
 
+            Console.WriteLine($"{testClass} тестирование.");
             Console.WriteLine("Добро пожаловать в программу!\n");
 
             while (true)
