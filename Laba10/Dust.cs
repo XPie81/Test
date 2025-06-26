@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab10
 {
-    struct Dust
+    class Dust
     {
         public double Temperature;
         public double Humidity;
